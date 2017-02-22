@@ -1,0 +1,152 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+
+
+#main{
+	margin:0;
+	height: auto;
+	background: rgb(222,222,222);
+}
+
+#top{
+	width:100%;
+	height: 60px;
+	background: #000;
+}
+
+#top .logo{
+	float:left;
+	padding:10px 0 10px 20px;
+}
+
+#top .link{
+	position:absolute;
+	right:0;
+}
+
+#top .link li{
+	float:left;
+	color: #fff;
+	margin-right: 20px;
+}
+
+#top .link li:last-child{
+	color:rgb(139,139,139);
+}
+
+#content{
+	position: relative;
+}
+
+#content #left{
+	margin-right: 470px;
+	width:auto;
+}
+
+#content #left #article1,#article2,#article_img,#article3{
+	margin:10px 15px;
+	padding:10px 20px;
+	border:1px solid rgb(205,205,205);
+	background: rgb(255,255,255);
+}
+
+#content #article_img div{	
+	display: inline-block;
+	border:1px solid rgb(205,205,205);
+	margin:10px;
+	padding:10px;
+	width: 90px;
+	height:150px;
+}
+
+#content #article_img h4{
+	width:80px;
+	display: block;
+}
+
+#content #article_img img{
+	width:80px;
+	height:80px;
+}
+
+#content #article3 table{
+	width:100%;
+	margin:10px 0;
+	background-color: #fff;
+	border-collapse: collapse;
+	border:1px solid rgb(205,205,205);
+	font-size: 90%;
+}
+
+#content #article3 table th,td{
+	text-align:left;
+	padding:2px;
+	border:1px solid rgb(205,205,205); 
+}
+
+#content #article3 table th{
+	background-color:rgb(51,51,51);
+	color:#fff;
+}
+
+#content #article3 table tr:last-child{
+	background-color: rgb(204,204,204);
+}
+
+#content #sidebar{
+	position: absolute;
+	top:-10px;
+	right:0px;
+	margin:10px 15px;
+	padding:10px 20px;
+	border:1px solid rgb(205,205,205);
+	background: rgb(255,255,255);
+}
+
+
+#content #sidebar table{
+}
+
+#content #sidebar table th{
+	border:0;
+	text-align:right;
+	font-size: 10px;
+}
+
+#content #sidebar table td{
+	border:0;
+	text-align:left;
+	font-size: 10px;
+}
+
+#content #sidebar button{
+	background-color:rgb(51,85,208);
+	color:#fff;
+	width:100%;
+	height:40px;
+	border-radius: 10px;
+}
+
+.tip{
+	color:gray;
+}
+
+#foot{
+	width:100%;
+	background:black;
+}
+
+#foot span{
+	display: block;
+	text-align: center;
+	color:#fff;
+	line-height: 80px;
+}
+
+
+
+
+
+
