@@ -3,6 +3,10 @@
 	padding:0;
 }
 
+li{
+	list-style: none;
+}
+
 #head{
 	width:100%;
 	height:60px;
@@ -198,7 +202,7 @@
     height: 36px;
     margin: 0 10px;
     cursor: pointer;
-    /*opacity: 0;*/
+    opacity: 0;
     position: relative;
     z-index: 10;
 }
@@ -212,9 +216,37 @@
     margin: 0 10px;
     background-color: #BE4F48;
     color: #fff;
-    /*opacity: 0;*/
+/*    opacity: 0;*/
     position: relative;
     z-index: 10;
     border-width: 0;
     -webkit-appearance: button;
 }
+
+
+#section4 .options-hidden{
+	display: inline-block;
+	position: relative;
+	top: -41px;
+}
+
+#section4 .options-hidden .select{
+	background: red;
+	display: inline-block;
+	width: 240px;
+	height: 36px;
+	margin: 0 10px;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+#section4 .options-hidden .select span{
+	line-height: 36px;
+}
+
+#section4 .options-hidden .select li{
+	background: yellow;
+	line-height: 36px;
+	display: none;
+}
+
